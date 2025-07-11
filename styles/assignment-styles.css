@@ -91,3 +91,43 @@ header{
     flex-direction: column;
     justify-content: space-between;
 }
+/* Main second section */
+.rate-1 , .rate-2 , .rate-3 {
+    width: 180px;
+    height: 121px;
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+.rate-percentage{
+    font-size: 20px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.activity-text{
+    font-size: 38px;
+    color: rgba(37, 36, 50, 1);
+    font-weight: bold;
+    text-align: center;
+}
+.activity-rate{
+    display: flex;
+    justify-content: space-between;
+}
+.activity-content{
+    width: 856px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.activity-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1140px;
+    height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 30px;
+}
