@@ -235,6 +235,7 @@ header{
     height: 632px;
     align-items: center;
     margin: 0 auto;
+    border-bottom: 2px solid rgba(242, 237, 237, 1);
 }
 .detail-area{
     display: flex;
@@ -285,4 +286,36 @@ header{
 }
 .detail-area a{
     text-decoration: none;
+}
+/* Footer */
+.footer-text{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    text-align: center;
+}
+footer{
+    background-color: white;
+    width: 1440px;
+    height: 428px;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+
+    width: 531px;
+    height: 221px;
+}
+.footer-paragraph{
+    font-size: 16px;
+    color: rgba(37, 36, 50, 0.5) ;
+    text-align: center;
+}
+.footer-detail{
+    color: rgba(37, 36, 50, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+
 }
