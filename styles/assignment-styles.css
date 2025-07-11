@@ -15,7 +15,7 @@ body{
 }
 /* Styles for Header */
 header{
-    background-image: url(Assets/Hero-bg.png);
+    background-image: url(../Assets/Hero-bg.png);
     width: 1440px;
     height: 698px;
     display: flex;
@@ -288,6 +288,7 @@ header{
     text-decoration: none;
 }
 /* Footer */
+
 .footer-text{
     font-size: 100px;
     font-weight: 900;
