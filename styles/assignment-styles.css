@@ -30,6 +30,9 @@ header{
     border: none;
     padding: 12px 36px;
 }
+.button-colors:hover , .detail-button:hover{
+    background-color: #322bff;
+}
 .logo{
     font-size: 34px;
     color: #4E47FF;
